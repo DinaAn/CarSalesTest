@@ -1,0 +1,36 @@
+.carList {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+}
+
+.carItem {
+  width: max-content;
+  margin: 10px;
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+.header {
+  text-align: center;
+  background-color: lightgrey;
+  color: black;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.button {
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
